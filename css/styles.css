@@ -1170,6 +1170,7 @@ header{
 }
 
 .custom-checkbox {
+    flex-shrink: 0;
     display: inline-flex;
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -1184,6 +1185,7 @@ header{
 }
 
 .checkbox-label {
+    display: flex;
     align-items: center;
     cursor: pointer;
     font-weight: 400;
@@ -1191,6 +1193,7 @@ header{
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
+    margin: 0 0 0;
 }
 
 .checkbox-input:checked+.checkbox-label>.custom-checkbox {
