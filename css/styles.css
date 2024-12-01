@@ -770,7 +770,6 @@ header{
 
 
 .page-footer {
-    
     background-color: #2e2f42;
     padding: 96px 0;
 
@@ -801,6 +800,10 @@ header{
 .footer-part-three {
     display: flex;
     flex-direction: column;
+}
+
+.footer-part-one {
+    margin-bottom: 72px;
 }
 
 .part-two-text {
@@ -952,6 +955,10 @@ header{
     .footer-part-one-two {
         display: flex;
         gap: 24px;
+    }
+
+    .footer-part-one {
+        margin-bottom: 0;
     }
 
 
